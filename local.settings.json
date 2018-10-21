@@ -1,0 +1,11 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName={YourAccountName};AccountKey={YourAccountKey};BlobEndpoint=https://{YourAccountName}.blob.core.windows.net/;TableEndpoint=https://{YourAccountName}.table.core.windows.net/;QueueEndpoint=https://{YourAccountName}.queue.core.windows.net/;FileEndpoint=https://{YourAccountName}.file.core.windows.net/",
+    "AzureWebJobsDashboard": "DefaultEndpointsProtocol=https;AccountName={YourAccountName};AccountKey={YourAccountKey};BlobEndpoint=https://{YourAccountName}.blob.core.windows.net/;TableEndpoint=https://{YourAccountName}.table.core.windows.net/;QueueEndpoint=https://{YourAccountName}.queue.core.windows.net/;FileEndpoint=https://{YourAccountName}.file.core.windows.net/",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+  },
+  "Host": {
+    "CORS": "*"
+  }
+}
